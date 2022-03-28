@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const EditAuthor = () => {
@@ -45,7 +45,8 @@ const EditAuthor = () => {
 		<div>
 			<div>
 				<h1>Favorite authors</h1>
-				<p> add a link here </p>
+				<br />
+				<Link to={"/"}>Home</Link>
 				<p>Add a new author</p>
 			</div>
 			<div>
